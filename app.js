@@ -17,7 +17,7 @@ const displaySongs = songs => {
             <h3 class="lyrics-name">${song.title}</h3>
             <p class="author lead">Album by <span>${song.artist.name}</span></p>
             <audio controls>
-                <source src="${song.preview}" type="audio/mpeg"
+                <source src="https://cdn-preview-a.deezer.com/stream/c-a0be839ddc6b74e14c666a8f4d4be6e5-4.mp3" type="audio/mpeg"
             </audio>
 
         </div>
